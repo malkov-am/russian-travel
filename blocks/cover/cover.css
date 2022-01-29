@@ -1,0 +1,31 @@
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-gap: 32px;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+
+@media screen and (max-width: 648px) {
+  .cover {
+    grid-gap: 16px;
+  }
+}
+
+.cover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
