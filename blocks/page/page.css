@@ -8,4 +8,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   color: #ffffff;
+  min-width: 320px;
+  box-sizing: border-box;
 }
