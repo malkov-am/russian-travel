@@ -25,3 +25,4 @@
 ## Ссылка на репозиторий проекта на GitHub:
 
 - [Ссылка на репозиторий](https://github.com/gWildCat/russian-travel)
+- [Ссылка на проект на GitHub Pages](https://gwildcat.github.io/russian-travel/index.html)
