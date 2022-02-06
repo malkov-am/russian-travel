@@ -1,6 +1,0 @@
-.cover__background {
-  background: url(../../../images/cover-trains.jpg);
-  background-size: cover;
-  grid-column: 1;
-  grid-row: 1/3;
-}
