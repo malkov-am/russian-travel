@@ -1,0 +1,8 @@
+.video__item {
+  position: relative;
+  max-height: 323px;
+  max-width: 583px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, min-content);
+}

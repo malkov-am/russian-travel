@@ -1,0 +1,11 @@
+.comments {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 102px 48px 102px 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .comments {
+    padding: 64px 16px 48px 16px;
+  }
+}

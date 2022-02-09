@@ -1,0 +1,17 @@
+.video__duration {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0 0 12px 30px;
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: normal;
+  letter-spacing: 0.3em;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 800px) {
+  .video__duration {
+    margin: 0 0 8px 24px;
+  }
+}

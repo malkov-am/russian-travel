@@ -1,0 +1,28 @@
+.video__subtitle {
+  grid-column: 1;
+  grid-row: 4;
+  margin: 0 0 0 30px;
+  font-size: 14px;
+  line-height: 1.08;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.video__subtitle::after {
+  content: "";
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .video__subtitle {
+    margin: 0 0 0 24px;
+  }
+}
